@@ -3,7 +3,7 @@ import numpy as np
 import torch
 import os
 import utils
-import TD3
+import TD3_n
 import pandas as pd
 from arguments import get_args
 import checkpoint as cp
@@ -84,7 +84,7 @@ def plot_generalization(args):
     ]
 
     # setup agent policy
-    policy = TD3.TD3(args, envs)
+    policy = TD3_n.TD3(args, envs)
 
     try:
         model_name = f"model_5.pyth"
