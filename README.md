@@ -18,4 +18,4 @@ python3 $HOME/AnyMorph/modular-rl/src/main_n.py --custom_xml environments/walker
 
 ### Experiments and Graphs  
 
-The comprehensive experiments,results and insights are all available in this report.
+The comprehensive experiments, results and insights are all available in this [report](Report.pdf).
